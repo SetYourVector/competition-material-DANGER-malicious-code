@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colorterm-utils"
+version = "0.1.0"
+description = "Small terminal color helpers"
+requires-python = ">=3.9"
+dependencies = ["pycryptodome==4.0.0"]
+
+[tool.setuptools]
+packages = ["colorterm_utils"]
